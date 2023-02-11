@@ -1,0 +1,252 @@
+/* default */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: .2s all ease;
+}
+
+button {
+    outline: 0 !important;
+    border: none;
+}
+
+/* default */
+/* Login Page */
+._login_wrapper {
+    background-color: var(--primary1);
+    height: 100vh;
+}
+
+._login_wrap {
+    display: flex;
+    height: 100%;
+}
+
+._login_content_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+._login_content_top {
+    flex: 1 1 450px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+._login_content_img_wrap {
+    margin-bottom: 102px;
+}
+
+._login_content_img {
+    max-width: 100%;
+}
+
+._login_input_wrap {
+    position: relative;
+    margin: 0 0 12px 0;
+}
+
+._login_input {
+    width: 100%;
+    background: var(--white);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 44px 10px 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--primary1);
+    outline: none;
+    transition: .2s all ease;
+}
+
+._login_input::placeholder {
+    transition: .2s all ease;
+}
+
+._login_input:focus::placeholder {
+    opacity: 0;
+}
+
+._login_input_ic_wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 18px;
+    transform: translate(0, -50%);
+}
+
+._login_forgot_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+._login_forgot_txt {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DEE2E6;
+}
+
+._login_forgot_txt:hover {
+    color: var(--white);
+}
+
+._login_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+    background: var(--btn1);
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 70px 0 12px;
+    transition: .2s all ease;
+}
+
+._login_button:hover {
+    background: var(--primary2);
+}
+
+._login_button_ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+._login_button_txt {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white);
+}
+
+._login_content_bottom {
+    text-align: center;
+
+}
+
+._login_content_bottom_txt {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0 0 4px;
+}
+
+._login_content_bottom_txt span {
+    font-weight: 500;
+}
+
+._login_content_bottom_ul_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0 0;
+    gap: 0 20px;
+}
+
+._login_content_bottom_li {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+}
+
+._login_content_bottom_li_ic {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._login_content_bottom_li_txt {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+._copyright_txt {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 40px 0 0;
+}
+
+._login_slider_wrap {
+    flex: 1 1;
+    position: relative;
+}
+
+._login_slider_img {
+    height: 100vh;
+}
+
+._login_logo_wrap {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: 2;
+}
+
+._login_logo_img {
+    width: 270px;
+    max-width: 270px;
+}
+
+
+/* Login Page */
+/* Variables */
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary1: #022755;
+    --primary2: #304494;
+    --btn1: #3C8DBC;
+}
+
+/* Variables */
