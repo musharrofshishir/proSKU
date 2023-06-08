@@ -1,4 +1,4 @@
-/* default */
+/* Default CSS */
 body,
 html {
     margin: 0;
@@ -36,7 +36,7 @@ button {
     border: none;
 }
 
-/* default */
+/* Default CSS */
 /* Login Page */
 ._login_wrapper {
     background-color: var(--primary1);
@@ -115,7 +115,7 @@ button {
     justify-content: flex-end;
 }
 
-._login_forgot_txt {
+._login_forgot_link {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
@@ -123,16 +123,16 @@ button {
     color: #DEE2E6;
 }
 
-._login_forgot_txt:hover {
+._login_forgot_link:hover {
     color: var(--white);
 }
 
-._login_button {
+._login_btn {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0 8px;
-    background: var(--btn1);
+    background-color: var(--btn1);
     border-radius: 4px;
     width: 100%;
     padding: 10px 0;
@@ -140,11 +140,11 @@ button {
     transition: .2s all ease;
 }
 
-._login_button:hover {
+._login_btn:hover {
     background: var(--primary2);
 }
 
-._login_button_ic {
+._login_btn_ic {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,7 +152,7 @@ button {
     height: 24px;
 }
 
-._login_button_txt {
+._login_btn_txt {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
@@ -162,7 +162,6 @@ button {
 
 ._login_content_bottom {
     text-align: center;
-
 }
 
 ._login_content_bottom_txt {
@@ -170,7 +169,7 @@ button {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
+    color: var(--white);
     margin: 0 0 4px;
 }
 
@@ -205,7 +204,7 @@ button {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 ._copyright_txt {
@@ -213,23 +212,20 @@ button {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
+    text-align: center;
+    color: var(--white);
     margin: 40px 0 0;
 }
 
 ._login_slider_wrap {
-    flex: 1 1;
     position: relative;
-}
-
-._login_slider_img {
-    height: 100vh;
+    flex: 1 1;
 }
 
 ._login_logo_wrap {
     position: absolute;
-    bottom: 50px;
     right: 50px;
+    bottom: 50px;
     z-index: 2;
 }
 
@@ -238,6 +234,9 @@ button {
     max-width: 270px;
 }
 
+._login_slider_img {
+    height: 100vh;
+}
 
 /* Login Page */
 /* Variables */
